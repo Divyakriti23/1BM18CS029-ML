@@ -24,7 +24,7 @@ cholesterolEnum = {'High': 0, 'BorderLine': 1, 'Normal': 2}
 heartDiseaseEnum = {'Yes': 0, 'No': 1}
 
 
-data = pd.read_csv("../input/lab5-ml/heart_disease_differentdata.csv")
+data = pd.read_csv("../input/lab5.2-ml/heart_disease_differentdata.csv")
 
 data =np.array(data, dtype='int8')
 N = len(data)
